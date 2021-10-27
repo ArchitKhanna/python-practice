@@ -1,0 +1,14 @@
+x = 'hello world'                                #str
+x = 1                                            #int
+x = 1.5                                          #float
+x = 1j                                           #complex 
+x = ["apple", "banana", "watermelon"]            #list
+x = ("apple", "banana", "watermelon")            #tuple
+x = range(5)                                     #range
+x = {"name": "archit", "age":25}                 #dictionary (dict)
+x = {"apple", "banana", "watermelon"}            #set
+x = frozenset({"apple", "banana", "watermelon"}) #frozenset
+x = True                                         #Boolean (bool)
+x = b"hello"                                     #bytes
+x = bytearray(5)                                 #bytearray
+x = memoryview(bytes(5))                         #memoryview
