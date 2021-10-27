@@ -47,3 +47,20 @@ print(x.lower()) #lower case
 print(x.strip()) #remove whitespace
 print(x.replace("!","s")) #replace a character or phrase
 print(x.split(" ")) #split string at the separator
+
+#combine strings and numbers using format(). {0} use index values for many placeholders, to ensure the correct numbers are replaced
+m = "This is room number {}"
+n = 35
+print(m.format(n))
+
+#using escape characters
+o = "This is for an \"escape\" character"
+
+#\n new line
+#\\ backslash
+#\t Tab
+#\r carriage return
+#\b backspace
+#\f form feed
+#\ooo octal value
+#xhh hex value
