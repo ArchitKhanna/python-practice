@@ -1,18 +1,23 @@
 print("hello")
+
+#assign to a variable '' and "" are both valid
 x = ' World!'
+
+#concatenate
 print ("Hello" + x)
+
+#Typecast
 y = str(2)
 print(y)
 
 #Multiline Strings with """ or '''
-
 z = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(z)
 
-#length
+#length function
 print(len(x))
 
 #access characters of a string as an array
