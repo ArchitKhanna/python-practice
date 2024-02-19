@@ -65,3 +65,85 @@ print(o)
 #\f form feed
 #\ooo octal value
 #xhh hex value
+
+#####################################################
+
+g = "Believe"
+print(g)
+
+g = """This is a multiline string which
+allows the python variable to store several 
+lines of string together""" #Single quotes work too
+print(g)
+
+# Access strings like arrays
+g = "Oranges"
+print(g[0])
+
+# Access strings using for loop
+for s in "Mercedes":
+    print(s)
+
+# Length of a string
+print(len(g))
+
+# Check if a term is in a string
+sent = "Luke this is your father"
+print("this" in sent)
+
+if "your" in sent:
+    print("The word is present!")
+
+print("something" not in sent)
+
+if "something" not in sent:
+    print("The word is not present")
+
+# Slicing a string
+print(g[1:4])
+print(g[:5])
+print(g[4:])
+print(g[-6:-3])
+
+# Modify strings
+print(g.upper())
+print(g.lower())
+
+h = " The world is beautiful! "
+print(h.strip()) # Remove whitespaces
+
+print(h.replace("w", "W"))
+
+print(h.split(" "))
+
+# Concatenate strings
+i = "Hello,"
+j = " World!"
+k = i+j
+print(k)
+
+# Using format to add numbers to strings
+l = 2
+m = 3
+n = 1
+order = "I would like {0} pizzas, {2} garlic bread and {1} lemon iced tea"
+print(order.format(l,m,n))
+
+# Using escape characters
+p = "This is the \"plant\" I was talking about!"
+print(p)
+print("This is a \n new line character")
+print("This is a \r return character")
+print("This is a \t tab character")
+print("This is a \b backspace character")
+print("\115\056\142\123\117")
+
+q="  heAthrow"
+print(q.capitalize())
+print(q.casefold())
+print(q.count(q))
+print(q.encode())
+print(q.endswith("w"))
+print(q.find("A"))
+print(q.index("r"))
+print(q.lstrip())
